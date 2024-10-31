@@ -45,3 +45,5 @@ In linux you also need to install the same libraries used in the dockerfile, the
 
 
 For more information, see the example project -> https://github.com/fpanaccia/Wkhtmltopdf.NetCore.Example
+
+For options see https://wkhtmltopdf.org/usage/wkhtmltopdf.txt

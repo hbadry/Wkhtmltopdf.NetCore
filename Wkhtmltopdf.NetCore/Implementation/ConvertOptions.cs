@@ -97,7 +97,11 @@ namespace Wkhtmltopdf.NetCore
         /// </summary>
         [OptionFlag("--footer-spacing")]
         public int? FooterSpacing { get; set; }
-
+        /// <summary>
+        /// Sets zoom
+        /// </summary>
+        [OptionFlag("--zoom")]
+        public double? Zoom { get; set; }
         /// <summary>
         /// Sets the variables to replace in the header and footer html
         /// </summary>
